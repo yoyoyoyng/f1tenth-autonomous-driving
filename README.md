@@ -147,31 +147,6 @@ flowchart LR
 
 ---
 
-## How to Run
-
-각 프로젝트는 포트폴리오용으로 독립 정리되어 있습니다. 실제 ROS 2 workspace에서 실행하려면 필요한 프로젝트 폴더를 `ros2_ws/src` 아래에 복사한 뒤 빌드합니다.
-
-```bash
-cd ~/ros2_ws
-colcon build --symlink-install
-source install/setup.bash
-```
-
-Pure Pursuit:
-
-```bash
-ros2 run pure_pursuit pure_pursuit_node
-```
-
-Gap Following:
-
-```bash
-ros2 run gap_following gap_follow_node
-```
-
-Nav2 설정 파일의 map 경로는 PC 환경에 맞게 수정해야 할 수 있습니다.
-
----
 
 ## What I Focused On
 
